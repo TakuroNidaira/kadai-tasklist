@@ -31,6 +31,7 @@
             </c:when>
             <c:otherwise>
                 <h2>お探しのデータは見つかりませんでした。</h2>
+                <p><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></p>
             </c:otherwise>
         </c:choose>
     </c:param>
